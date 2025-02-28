@@ -1,0 +1,66 @@
+/* Projects Section */
+/* Projects Section */
+#projects {
+    background: #1a1a2e;
+    padding: 50px 10%;
+    color: #fff;
+    text-align: left; /* Aligns all text to the left */
+}
+
+#projects h2 {
+    color: #e94560;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 3px solid #e94560;
+    display: inline-block;
+    padding-bottom: 5px;
+    text-align: left; /* Aligns heading to the left */
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #16213e;
+    padding: 20px;
+    border-radius: 8px;
+    width: 280px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.project h3 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.project p {
+    color: #ddd;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.project a {
+    display: inline-block;
+    text-decoration: none;
+    color: #e94560;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.project a:hover {
+    color: #ffaa00;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}

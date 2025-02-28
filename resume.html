@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Sasti HariKumar KL</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #121212;
+            color: white;
+        }
+        iframe {
+            width: 80%;
+            height: 90vh;
+            border: none;
+        }
+        .download-btn {
+            padding: 10px 20px;
+            margin: 10px;
+            background: yellow;
+            color: black;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Resume Preview</h2>
+    <iframe src="resume.pdf"></iframe> <!-- Displays Resume -->
+    <a href="resume.pdf" download>
+        <button class="download-btn">Download Resume</button>
+    </a>
+</body>
+</html>

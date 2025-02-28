@@ -1,0 +1,234 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1a1a2e;
+    color: #fff;
+    text-align: center;
+}
+
+/* About Me Section */
+#about {
+    background: #1a1a2e;
+    padding: 50px 10%;
+    color: #fff;
+    text-align: left;
+}
+
+#about h2 {
+    color: #e94560;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #e94560;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    color: #ddd;
+}
+
+.about-content p {
+    margin-bottom: 15px;
+}
+
+.about-content p:last-child {
+    margin-bottom: 0;
+}
+
+.about-content a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.about-content a:hover {
+    color: #ffaa00;
+}
+
+/* Header */
+header {
+    background: #0f3460;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e94560;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0 35px 0 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e94560;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures content is on the left & image on the right */
+    height: 90vh;
+    padding: 0 10%;
+}
+
+.hero-content {
+    max-width: 50%; /* Adjusts width of text */
+    text-align: left;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #ffcc00;
+    color: #222;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #ffaa00;
+}
+
+.hero-image {
+    width: 35%;
+    display: flex;
+    justify-content: flex-end; /* Moves the image to the far right */
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+/* Projects */
+/* .projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #16213e;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    transition: 0.3s;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project:hover {
+    transform: scale(1.05);
+} */
+
+/* Footer */
+footer {
+    background: #0f3460;
+    padding: 20px;
+    margin-top: 20px;
+}
+#scrollUpBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+}
+#scrollUpBtn:hover {
+    background: #e04e2b;
+}
+
+/* Contact Me Section */
+#contact {
+    
+    padding: 50px 10%;
+    color: #fff;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    color: #ddd;
+    margin: 10px 0;
+}
+
+#contact a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#contact a:hover {
+    color: #ffaa00;
+}
+
+#contact h2{
+    color: #e94560;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: left;
+    border-bottom: 2px solid #e94560;
+    display: inline-block;
+    padding-bottom: 5px;
+}
